@@ -12,7 +12,6 @@ public class Product {
 
     private String name;
 
-
     @OneToMany(mappedBy = "product")
     private List<MemberProduct> memberProducts = new ArrayList<>();
 
